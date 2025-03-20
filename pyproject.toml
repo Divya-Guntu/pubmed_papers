@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pubmed-papers"
+version = "0.1.0"
+description = "Fetch research papers from PubMed"
+authors = ["Divya-Guntu <lxmndivya@gmail.com>"]
+
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+pandas = "^2.0.0"
+
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_papers.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
+
