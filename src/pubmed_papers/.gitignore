@@ -1,0 +1,3 @@
+"# Ignore all CSV files except papers.csv" 
+"*.csv" 
+"!papers.csv" 
