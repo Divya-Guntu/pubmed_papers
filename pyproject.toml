@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "pubmed-papers"
+name = "pubmed-papers-Divya1227"
+
 version = "0.1.0"
 description = "Fetch research papers from PubMed"
 authors = ["Divya-Guntu <lxmndivya@gmail.com>"]
+packages = [{ include = "pubmed_papers", from = "src" }]
 
 readme = "README.md"
 
